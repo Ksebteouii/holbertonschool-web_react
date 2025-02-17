@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 3px solid #e1003c;
+}
+
+.App-header img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.App-header h1 {
+  color: #e1003c;
+  font-size: 24px;
+}
+
+.App-body {
+  padding: 20px;
+}
+
+.App-footer {
+  border-top: 3px solid #e1003c;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
