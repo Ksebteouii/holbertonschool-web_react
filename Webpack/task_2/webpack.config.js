@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'production', // Set Webpack mode to production
-  entry: './src/index.js', // Entry point for your application
+  entry: './js/dashboard_main.js', // Updated entry point
   output: {
     filename: 'bundle.js', // Output JavaScript file name
     path: path.resolve(__dirname, 'public'), // Output directory
