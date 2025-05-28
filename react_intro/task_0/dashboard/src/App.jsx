@@ -3,7 +3,7 @@ import holbertonLogo from './assets/holberton-logo.jpg';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <div className="App-header">
         <img src={holbertonLogo} alt="holberton logo" />
         <h1>School dashboard</h1>
@@ -12,9 +12,9 @@ function App() {
         <p>Login to access the full dashboard</p>
       </div>
       <div className="App-footer">
-        <p>Copyright 2024 - Holberton School</p>
+        <p>Copyright {new Date().getFullYear()} - holberton School</p>
       </div>
-    </div>
+    </>
   );
 }
 
